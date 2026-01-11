@@ -154,5 +154,22 @@ python pipeline/request.py \
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
+🔮 Future Work
+We aim to evolve CrimJudge from a static evaluation tool into a dynamic, cross-jurisdictional legal AI ecosystem:
 
-**Would you like me to help you draft the `LICENSE` file or a more detailed `Installation` guide for this repository?**
+1. Living Benchmark
+We are establishing a living benchmark for continuous evaluation. This involves periodic re-assessment of emerging LLMs using our standardized framework to transform the evaluation from a static snapshot into a dynamic process.
+
+2. Cross-Jurisdictional Evaluation
+To bridge the gap between different legal systems, we plan to:
+
+Incorporate International Datasets: Integrate benchmarks like the ECHR dataset (European Court of Human Rights).
+
+Adapt Legal Traditions: Tailor criteria for common-law contexts, specifically assessing precedent-based reasoning (e.g., US and UK systems).
+
+3. Normative & Ethical Dimensions
+Future versions will move beyond technical accuracy to assess:
+
+Judicial Fairness & Ethics: Evaluating bias and adherence to judicial values.
+
+Expert-in-the-loop: Integrating structured manual evaluations by legal experts to provide a normatively grounded assessment of AI-assisted decision-making.

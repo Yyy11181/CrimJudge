@@ -52,7 +52,7 @@ Automatically extracts and evaluates structural legal elements using Ground Trut
 * **Legal Article Assessment:** Accuracy of cited law articles.
 * **Penalty Prediction:** Error margin analysis for imprisonment terms.
 
-### 2. Legal Approximation (LLM-as-a-Judge)
+### 2. Legal appropriateness (LLM-as-a-Judge)
 
 Leverages advanced LLMs to score generated judgments across four critical legal dimensions (Scale 1-5):
 
@@ -63,7 +63,7 @@ Leverages advanced LLMs to score generated judgments across four critical legal 
 
 ### 3. High-Efficiency Pipeline
 
-* **Multi-Model Support:** Native support for OpenAI, Zhipu AI, SiliconFlow, etc.
+* **Multi-Model Support:** Native support for OpenAI, Zhipu AI, etc.
 * **Async Processing:** High-concurrency requests for large-scale dataset evaluation.
 * **Robustness:** Built-in retry mechanisms and caching to handle API instabilities.
 

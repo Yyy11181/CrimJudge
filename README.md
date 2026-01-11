@@ -154,7 +154,8 @@ python pipeline/request.py \
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-🔮 Future Work
+## 🔮 Future Work
+
 We aim to evolve CrimJudge from a static evaluation tool into a dynamic, cross-jurisdictional legal AI ecosystem:
 
 1. Living Benchmark

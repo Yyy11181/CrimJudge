@@ -155,23 +155,14 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 ## 🔮 Future Work
-
 We aim to evolve CrimJudge from a static evaluation tool into a dynamic, cross-jurisdictional legal AI ecosystem:
-
 1. Living Benchmark
-
-We are establishing a living benchmark for continuous evaluation. This involves periodic re-assessment of emerging LLMs using our standardized framework to transform the evaluation from a static snapshot into a dynamic process.
-
+We are establishing a living benchmark for continuous evaluation. This involves periodic re-assessment of emerging LLMs using our standardized framework, transforming the evaluation from a static snapshot into a dynamic, continuously updated process.
 2. Cross-Jurisdictional Evaluation
-
-To bridge the gap between different legal systems, we plan to:
-
-### Incorporate International Datasets: Integrate benchmarks like the ECHR dataset (European Court of Human Rights).
-
-### Adapt Legal Traditions: Tailor criteria for common-law contexts, specifically assessing precedent-based reasoning (e.g., US and UK systems).
-
+To bridge the gap between different legal systems, we plan to expand our scope:
+* International Datasets: Integrate global benchmarks such as the ECHR (European Court of Human Rights) dataset.
+* Legal Tradition Adaptation: Tailor criteria for common-law contexts, specifically assessing whether LLM-generated reasoning aligns with precedent-based legal logic (e.g., US and UK systems).
 3. Normative & Ethical Dimensions
-Future versions will move beyond technical accuracy to assess:
-
-### Judicial Fairness & Ethics: Evaluating bias and adherence to judicial values.
-### Expert-in-the-loop: Integrating structured manual evaluations by legal experts to provide a normatively grounded assessment of AI-assisted decision-making.
+Future versions will move beyond technical accuracy to focus on higher-level judicial values:
+* Judicial Fairness & Ethics: Evaluating algorithmic bias and adherence to fundamental judicial principles.
+* Expert-in-the-Loop: Integrating structured manual evaluations by legal experts to ensure AI-assisted decision-making is normatively grounded.

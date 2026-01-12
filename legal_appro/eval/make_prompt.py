@@ -50,7 +50,7 @@ if __name__ == "__main__":
     #     os.makedirs(output_dir)
     model_names = [name.strip() for name in args.model_name.split(',') if name.strip()]
     for model_name in model_names:
-        generated_dir = f"legal_appro\\generate\\generated_data\\{model_name}"  # 生成的文件目录
+        generated_dir = f"legal_appro\\generate\\generated_data\\{model_name}"  # 文件目录
         output_dir = f"eval\\prompt\\{model_name}"
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)

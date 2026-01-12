@@ -160,7 +160,7 @@ We aim to evolve CrimJudge from a static evaluation tool into a dynamic, cross-j
 We are establishing a living benchmark for continuous evaluation. This involves periodic re-assessment of emerging LLMs using our standardized framework, transforming the evaluation from a static snapshot into a dynamic, continuously updated process.
 2. Cross-Jurisdictional Evaluation
 To bridge the gap between different legal systems, we plan to expand our scope:
-*Cross-jurisdictional Datasets: Integrate benchmarks such as the ECHR (European Court of Human Rights) dataset.
+* Cross-jurisdictional Datasets: Integrate benchmarks such as the ECHR (European Court of Human Rights) dataset.
 * Legal Tradition Adaptation: Tailor criteria for common-law contexts, specifically assessing whether LLM-generated reasoning aligns with precedent-based legal logic (e.g., US and UK systems).
 3. Normative & Ethical Dimensions
 Future versions will move beyond technical accuracy to focus on higher-level judicial values:

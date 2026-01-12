@@ -27,7 +27,7 @@ CrimJudge/
 │   ├── law_extraction.py           # Legal article extraction
 │   └── segment/                    # Text segmentation utilities
 │
-├── legal_appro/                    # LLM-based Intelligent Evaluation
+├── legal_appro/                    # LLM-as-a-Judge Evaluation
 │   ├── eval/                       # LLM evaluation core logic & prompts
 │   ├── lls-as-judge/               # Consistency analysis (Human vs. LLM)
 │   ├── excel/                      # Visualization and error analysis
@@ -44,13 +44,13 @@ CrimJudge/
 
 ## 🚀 Key Features
 
-### 1. Outcome Evaluation (Rule-based)
+### 1. Prediction Correctness (Rule-based)
 
 Automatically extracts and evaluates structural legal elements using Ground Truth comparison:
 
 * **Accusation Assessment:** Recall, Precision, and F1 for predicted crimes.
-* **Legal Article Assessment:** Accuracy of cited law articles.
-* **Penalty Prediction:** Error margin analysis for imprisonment terms.
+* **Legal Article Assessment:** Recall, Precision, and F1 for cited law articles.
+* **Penalty Prediction:** Term Accuracy for imprisonment terms.
 
 ### 2. Legal appropriateness (LLM-as-a-Judge)
 
@@ -160,7 +160,7 @@ We aim to evolve CrimJudge from a static evaluation tool into a dynamic, cross-j
 We are establishing a living benchmark for continuous evaluation. This involves periodic re-assessment of emerging LLMs using our standardized framework, transforming the evaluation from a static snapshot into a dynamic, continuously updated process.
 2. Cross-Jurisdictional Evaluation
 To bridge the gap between different legal systems, we plan to expand our scope:
-* International Datasets: Integrate global benchmarks such as the ECHR (European Court of Human Rights) dataset.
+*Cross-jurisdictional Datasets: Integrate benchmarks such as the ECHR (European Court of Human Rights) dataset.
 * Legal Tradition Adaptation: Tailor criteria for common-law contexts, specifically assessing whether LLM-generated reasoning aligns with precedent-based legal logic (e.g., US and UK systems).
 3. Normative & Ethical Dimensions
 Future versions will move beyond technical accuracy to focus on higher-level judicial values:
